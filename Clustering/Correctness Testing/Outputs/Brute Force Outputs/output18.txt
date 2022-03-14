@@ -1,0 +1,2 @@
+Minimum Cost: 1298618.4429825
+Clustering: 1 2 3 4 3 4 5 3 6 7 3 3 8 3 9 
