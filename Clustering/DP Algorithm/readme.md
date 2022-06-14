@@ -20,8 +20,8 @@ $k$ is the number of clusters and $\rho$ is the maximum possible number of outli
 
 There are also the following constraints:
 
-- $1 \leq n \leq \text{MAXN} \quad , \quad 1 \leq k \leq \text{MAXK} \quad , \quad 0 \leq \rho \leq \text{MAX\_RHO}$
-- $w_i \geq 1 \quad , \quad \sum_{i = 1}^{n-1} w_i \leq 3\times10^8 \quad , \quad \sum_{i = 0}^{n-1} \pi(i) \leq \text{MAX\_SUMPI}$
+- $1 \leq n \leq$ MAXN  ,   $1 \leq k \leq$ MAXK   ,   $0 \leq \rho \leq$ MAX_RHO
+- $w_i \geq 1$   ,   $\sum_{i = 0\ \text{to}\ n - 1} w_i \leq 3\times10^8$   ,   $\sum_{i = 0\ \text{to}\ n - 1} \pi(i) \leq$ MAX_SUMPI
 - There is at least one valid clustering for the input.
 
 **Output $\to$** The cost of optimal clustering and the clustering itself, i.e., a sequence of $n$ numbers $\text{ans}(0), \text{ans}(1), \dots, \text{ans}(n-1)$ where $\text{ans}(i)$ is 0 for outliers and is the number of cluster containing $i$ otherwise. 
