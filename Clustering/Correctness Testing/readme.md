@@ -21,8 +21,8 @@ $k$ is the number of clusters and $\rho$ is the maximum possible number of outli
 
 There are also the following constraints:
 
-- $\text{MINN} \leq n \leq \text{MAXN} \quad , \quad 2 \leq k \leq \text{MAXK} \quad , \quad 0 \leq \rho \leq \text{MAX\_RHO}$
-- $1 \leq w_i \leq \text{MAX\_EDGE} \quad , \quad p_i < i \quad , \quad \sum_{i = 0}^{n-1} \pi(i) \leq \text{MAX\_SUMPI}$
+- MINN $\leq n \leq$ MAXN   ,   $2 \leq k \leq$ MAXK   ,   $0 \leq \rho \leq$ MAX_RHO
+- $1 \leq w_i \leq$ MAX_EDGE   ,   p_i < i   ,   $\sum_{i = 0\ to\ n-1} \pi(i) \leq$ MAX_SUMPI
 - There is at least one valid clustering for the test case.
 
 **input_maker.bash $\to$** Generates 50 test cases by running [test_generator.cpp](/test_generator.cpp).
