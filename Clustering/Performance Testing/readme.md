@@ -15,9 +15,16 @@ $\vdots$
 
 $p_{n-1}\ w_{n-1}$
 
-All numbers are non-negative integers. Vertices are supposed to be labled with $\{0, 1, 2, \dots, n - 1\}$ and the tree is supposed to be rooted from vertex $0$. 
+All numbers are non-negative integers. Vertices are supposed to be labled with 
+$\{0, 1, 2, \dots, n - 1\}$
+and the tree is supposed to be rooted from vertex $0$. 
 
-$k$ is the number of clusters and $\rho$ is the maximum possible number of outliers. $\pi(i)$ is the weight of vertex $i$ and $p_i$ is the parent of vertex $i$. $w_i$ is the weight of the edge between $i$ and $p_i$.
+$k$ is the number of clusters and 
+$\rho$
+is the maximum possible number of outliers. 
+$\pi(i)$
+is the weight of vertex $i$ and $p_i$ is the parent of vertex $i$. 
+$w_i$ is the weight of the edge between $i$ and $p_i$.
 
 There are also the following constraints:
 
