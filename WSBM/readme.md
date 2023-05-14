@@ -1,5 +1,5 @@
 ## What?
-The impiementation of Wighted Stochastic Block Model, with a slight change on [this paper](/Weighted%20Stochastic%20Block%20Model%20.pdf) [Secotion 2.1] for handling outliers.
+The impiementation of Weighted Stochastic Block Model, with a slight change on [this paper](/Weighted%20Stochastic%20Block%20Model%20.pdf) [Secotion 2.1] for handling outliers.
 
 **Input $\to$** Two positive integers $n \leq \text{MAXN}$ and $k \leq \text{MAXK}$ are given in the first line which are the number of vertices and clusters respectively.
 
